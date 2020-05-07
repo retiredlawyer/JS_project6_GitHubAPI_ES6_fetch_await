@@ -2,7 +2,6 @@ class Github {
 
     constructor (){
         this.url = "https://api.github.com/users/";
-
     }
 
     async getGithubData(username){
@@ -18,5 +17,4 @@ class Github {
             repo: dataRepo
         }
     }
-
 }
